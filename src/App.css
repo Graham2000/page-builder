@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.toolbar {
+  border: 1px solid black;
+  width: 20%;
+}
+
+.canvas {
+  border: 1px solid black;
+  width: 80%;
+  font-size: 25px;
+}
+
+.toolbar h5, .canvas h5 {
+  display: inline;
+  padding: 10px;
+  border-bottom: 3px solid red;
+  border-right:  3px solid red;
+}
+
+.row {
+  background-color: bisque;
+  min-height: 45px;
+  word-wrap:break-word;
+}
+
+
+.current {
+  border: 3px solid red;
+}
